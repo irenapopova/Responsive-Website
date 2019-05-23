@@ -1,0 +1,311 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+li {
+
+    list-style: none;
+    display: inline-block
+}
+
+a {
+
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active {
+
+    text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    line-height: 21px;
+}
+
+.btn {
+
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+
+    background-color: #ededed !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+
+/*NAVIGATION*/
+/*!important overides Bootstrap Style*/
+
+.navbar {
+    
+    background-color: #0D0D0D !important;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: #fff !important;
+    opacity: 0.7;
+}
+
+.navbar a:hover {
+    
+    color: #EAC949 !important;
+    opacity: 1;
+    background-color: #111111 !important;
+}
+
+.active a {
+    background: none !important;
+    color: #EAC949 !important;
+}
+
+/*HEADER*/
+
+.header {
+    
+    height: 600px;
+    width: 100%;
+    padding: 30px 0 30px;
+    margin-top: 50px;
+    background-image: url("http://cdn.wallpapersafari.com/22/74/ScYDqI.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #;
+}
+
+
+.header img {
+    
+    height: 350px;
+    width: 450px;
+    margin: 70px 0 0 40px;
+}
+
+.header h1 {
+    
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+@media(max-width:768px) {
+    .header {
+        padding: 30px;
+        height: 750px;
+    }
+
+    .header img {
+        width: 90%;
+        height: 300px;
+        margin: 20px 0 0 20px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+/*SUMMARY OF SERVICES*/
+
+.services {
+    
+    padding: 80px 0 80px;
+    text-align: center;
+}
+
+.services h2,
+.services h4 {
+    
+    color: #2E2E2E;
+    margin: 20px 0 20px;
+}
+
+
+.services p {
+    
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+
+.services i {
+    
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border-radius: 50%;
+    background-color: #759EB8;
+    color: #fff;
+}
+
+
+@media(max-width:768px) {
+    
+    .services {
+        background-color: #CED0CE;
+        padding: 30px;
+    }
+}
+
+
+/*ABOUT US*/
+
+.pricing {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #2E2E2E;
+}
+
+.pricing h2,
+.pricing p {
+    
+    color: #fff;
+}
+
+.pricing p {
+    
+    padding-bottom: 40px;
+}
+
+.pricing .packages {
+    
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+
+.packages li {
+    
+    display: block;
+    padding: 5px;
+}
+
+.packages h4,
+.packages h1,
+.packages b {
+    
+    color: #4c4c4c;
+}
+
+.packages p,
+.packages li {
+    
+    color: #737373;
+}
+
+.packages button {
+    
+    margin-top: 10px;
+}
+
+
+
+@media(max-width:768px) {
+    
+    .pricing {
+        
+        padding: 30px;
+    }
+    
+    .packages {
+        
+        width: 80%;
+        margin-left: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+/*CONTACT US*/
+
+.contact {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #CED0CE;
+}
+
+.contact p {
+    
+    padding-bottom: 80px;
+    color: #737373;
+}
+
+.contact h2 {
+    
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+
+
+
+
+
+
+/*FOOTER*/
+
+.footer {
+    
+    padding: 30px;
+    color: #fff;
+    background-color: #0D0D0D;
+    
+}
+
+.footer input {
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    border: none;
+    background-color: #cccccc;
+    color: #000;    
+}
+
+
+
+
+
+
+
+
